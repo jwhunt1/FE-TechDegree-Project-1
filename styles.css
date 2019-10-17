@@ -57,13 +57,22 @@ nav {
   color: white
 }
 
-header {
+.header-home {
   text-align: center;
   background: url('images/oneloudoun.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+
+.header-exp {
+  text-align: center;
+  background: url('images/experiences.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -88,9 +97,13 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+.name {
+  border: solid 2px black;
+}
 .location {
   background-color: #222;
   color: yellow;
+  border: solid 2px whitesmoke;
 }
 
 .background-img {
@@ -145,6 +158,16 @@ ul.skills {
   height: 30px;
   padding-right: 5px;
   float: left;
+}
+
+.htmlcsslogo {
+  width: 50px;
+  padding-right: 5px;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
 }
 
 footer {
@@ -205,6 +228,10 @@ a.social:hover {
       justify-content: space-around;
       margin: 0 auto;
       flex-wrap: wrap;
+  }
+
+  .exp-flex {
+    flex-wrap: nowrap;
   }
 
   header {
