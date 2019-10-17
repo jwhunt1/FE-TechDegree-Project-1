@@ -114,6 +114,10 @@ header .profile-image:hover {
   border-color: #ae23ff;
 }
 
+.hobbies {
+  max-width: 100%;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -200,6 +204,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      flex-wrap: wrap;
   }
 
   header {
