@@ -73,6 +73,14 @@ nav {
   padding-top: 60px;
 }
 
+.header-contact {
+  text-align: center;
+  background: url('images/contact.jpeg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -102,7 +110,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: #d285ff;
   border: solid 2px whitesmoke;
 }
 
@@ -160,6 +168,13 @@ ul.skills {
   float: left;
 }
 
+.logo {
+  width: 60px;
+  height: 60px;
+  padding-right: 10px;
+  float: left;
+}
+
 .htmlcsslogo {
   width: 50px;
   padding-right: 5px;
@@ -189,6 +204,11 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color:black;
 }
 
 a.social {
