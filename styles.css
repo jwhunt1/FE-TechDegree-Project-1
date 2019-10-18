@@ -103,7 +103,6 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
-  transition-timing-function: linear 2s;
 }
 .tag {
   background-color: #efefef;
