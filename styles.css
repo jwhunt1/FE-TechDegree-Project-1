@@ -257,8 +257,12 @@ a.social:hover {
       flex-wrap: wrap;
   }
 
-  .exp-flex {
+  .exp-flex, .about-flex{
     flex-wrap: nowrap;
+  }
+
+  .about-flex {
+    max-width: 1600px;
   }
 
   header {
